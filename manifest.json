@@ -1,0 +1,12 @@
+{
+    "name": "SlideShare拡大表示くん",
+    "version": "1.0",
+    "description": "slideshare.net の表示をウィンドウサイズに合わせて広げるための Custom CSS です。",
+    "content_scripts": [
+        {
+            "matches": ["https://www.slideshare.net/*/*"],
+            "css": ["style.css"]
+        }
+    ],
+    "manifest_version": 2
+}

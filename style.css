@@ -1,0 +1,8 @@
+#slideview-container > div.row {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#svPlayerId > div.stage {
+    height: auto;
+}
